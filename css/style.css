@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{      
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+body{
+    background-image: url("../images/gta\ v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar qismi */
+
+.nav-hreft{
+    color: white;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+[nav-btn]{
+    padding: 20px 35.5px;
+    border-radius: 10px;
+    border: 1px solid #FE8C05;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FE8C05;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav-list > li:nth-child(1) a:hover{
+    color: blue;
+}
+
+.nav-list > li:nth-child(2) a:hover{
+    color: #FC4237;
+}
+
+.nav-list > li:nth-child(3) a:hover{
+    color: blueviolet;
+}
+
+.nav-list > li:nth-child(4) a:hover{
+    color: green;
+}
